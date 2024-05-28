@@ -1,0 +1,42 @@
+{
+  "name": "template",
+  "author": {
+    "name": "JPereraAracil"
+  },
+  "repository": {
+    "url": "https://github.com/jesuspereraaracil/jperera-nextjs-template"
+  },
+  "bugs": {
+    "url": "https://github.com/jesuspereraaracil/jperera-nextjs-template/issues"
+  },
+  "license": "MIT",
+  "readme": "README.md",
+  "description": "Template for NextJS + ESlint + Prettier + Editorconfig + Stylelint",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5",
+    "stylelint": "^16.6.0",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-prettier": "^5.0.0",
+    "typescript": "^5"
+  }
+}
